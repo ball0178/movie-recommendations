@@ -1,0 +1,90 @@
+*{
+    line-height: 2rem;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    background-image: url(https://i.imgur.com/YbI6ViJ.png);
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.mid{
+   width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: white;
+    padding-left: 37%;
+}
+
+#search-input{
+    width: 60%;
+    height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+#search-button{
+    order: 1;
+    width: 15%;
+    height: 6.3rem;
+    float: right;
+    background-color: deepskyblue;
+}
+#back-button{
+    width: 15%;
+    height: 6.3rem;
+    float: right;
+    padding-right: -2rem;
+    background-color: darkred;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+    clear: both;
+}
+.loading.not{
+    display:none;
+}
+.imgd{
+    padding: .5rem 1rem;
+    height: 300px;
+    float: left;
+}
+
+.movie:hover {
+    transition: transform 0.35s ease-in-out;
+    border-color: black;
+    transform: translateY(-20%);
+    z-index: 20;
+}
+
+
+.movie{
+    color: aliceblue;
+    margin-top: 3rem;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    width: 40%;
+    border-radius: 5%;
+    flex-wrap: nowrap;
+    border: 0.15rem solid gray;
+    height: 400px;
+    box-shadow: 10px 10px 15px silver;
+    float: left;
+    margin-right: 7rem;
+    
+}
+.title_card {
+    overflow:scroll;
+}
+.page
